@@ -1,6 +1,6 @@
 *{box-sizing:border-box}
 html{ height: 100%;
-  background-image: linear-gradient(180deg, thistle, cornsilk);
+  background-image: linear-gradient(180deg, thistle, pink, cornsilk);
   background-attachment: fixed;
 }
 body{
@@ -11,15 +11,25 @@ body{
 .links {
   list-style:none;
 }
-.links a{text-decoration:none;}
+.links a{text-decoration:none;
+    color: darkmagenta;
+    font-size: 40px;
+    font-weight:bold;
+}
 h1{
     text-align: center;
     font-family:'Griffy', cursive;
     font-size: 70px;
     color: goldenrod;
 }
+h2{
+  font-family:'Courgette', cursive;
+  text-align: center;
+  color:indigo;
+}
 li{ margin: 100px 0 100px 0}
-main {background-color: blue;
+main /*{background-color: blue;*/
+
 }
 main > aside {
   /* border:1px solid black; */
@@ -28,7 +38,19 @@ main > aside, main > section {
   float:left;
 }
 main > section{
-  /* background-color:red; */
+   /* background-color:red;  */
 width:70%;
-padding:20px
-margin-left:20px;}
+padding:40px
+/* margin-left:20px; */
+}
+h4{
+  font-family:'Courgette', cursive;;
+}
+h4 a{
+  text-decoration: none;
+  color:indigo;
+  margin-left: 250px;
+}
+h4 a:hover{
+  color: black;
+}
