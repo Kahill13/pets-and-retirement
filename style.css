@@ -10,6 +10,7 @@ body{
 }
 .links {
   list-style:none;
+  color:indigo;
 }
 .links a{text-decoration:none;
     color: darkmagenta;
@@ -40,6 +41,7 @@ main > aside, main > section {
 main > section{
    /* background-color:red;  */
 width:70%;
+
 padding:40px
 /* margin-left:20px; */
 }
@@ -53,4 +55,31 @@ h4 a{
 }
 h4 a:hover{
   color: black;
+
+padding:20px
+margin-left:20px;}
+article img {
+  float:left;
+  width:500px;
+  Margin-right:10px;
+}
+article img.right-dog{
+  float:right;
+    margin-right:0px;
+      margin-left:10px;
+}
+h2 {
+  color:darkmagenta;
+}
+article {
+  color:darkmagenta;
+}
+aside a, aside a:visited{
+  color:darkmagenta;
+}
+.links a:hover {
+  color:black;
+}
+p a:hover {
+  color:black;
 }
